@@ -9,10 +9,10 @@
             <i class="iconfont icon-msg" slot="right"></i>
         </nav-bar>
 		<me-scroll class="wrapper" ref="scroll" :style="{'height':maxheight}">
-            
+
 		    <div class="content">
 				<div class="swiper">
-		    	<img :src="`http:${this.product.baseinfo.picUrl}`" alt> 
+		    	<img :src="`http:${this.product.baseinfo.picUrl}`" alt>
 				<div class="detail_decoration">
 		    		<div class="price">¥<em>{{this.product.price.actPrice}}</em>.00</div>
 		    		<div class="msg">
@@ -52,7 +52,7 @@
       			</div>
 			</div>
 		    </div>
-		    	
+
 		</me-scroll>
     </div>
 </template>
@@ -184,24 +184,24 @@ import NavBar from "@/components/navbar";
 		  height: 50px;
 		  background-color: #fff;
 		}
-
+//sadvahdvad
 		.g-tabbar .item {
 		    flex: 1;
 		    display:flex;
 		    flex-direction:column;
 		    justify-content:center;
 		    align-items:center;
-		} 
+		}
 		.g-tabbar .item:nth-of-type(3){
             flex: 2;
             background: #f60;
             color:#fff;
-		}   
+		}
 		.g-tabbar .item:nth-of-type(4){
 			flex: 2;
 			background: #f00;
 			color:#fff;
-		}  
+		}
 		.g-tabbar  .iconfont {
 			color:#333;
 		    margin-bottom: 4px;
