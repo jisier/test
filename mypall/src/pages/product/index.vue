@@ -175,29 +175,30 @@ import NavBar from "@/components/navbar";
 		  left: 0;
 		  bottom: 0;
 		  z-index:999;
-		  width: 100%;
-		  box-shadow: 0 0 10px 0 hsla(0, 6%, 58%, 0.6);
-		}
-		.g-tabbar {
-		  display: flex;
-		  width: 100%;
-		  height: 50px;
-		  background-color: #fff;
-		}
+		  width: 100%; 0 0 10px 0 hsla(0, 6%, 58%, 0.6);
+        }
+        .g-tabbar {
+          display: flex;
+          width: 100%;
+          height: 50px;
+          background-color: #fff;
+        }
 //sadvahdvadsadasdas
-		.g-tabbar .item {
-		    flex: 1;
-		    display:flex;
-		    flex-direction:column;
-		    justify-content:center;
-		    align-items:center;
-		}
+        .g-tabbar .item {
+            flex: 1;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
         //hhhhhh
-		.g-tabbar .item:nth-of-type(3){
+        .g-tabbar .item:nth-of-type(3){
             flex: 2;
             background: #f60;
             color:#fff;
-		}
+        }
+        //hhhjjsiiioi
+		  box-shadow:
 		.g-tabbar .item:nth-of-type(4){
 			flex: 2;
 			background: #f00;
