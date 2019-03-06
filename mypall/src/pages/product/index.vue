@@ -183,7 +183,7 @@ import NavBar from "@/components/navbar";
           height: 50px;
           background-color: #fff;
         }
-//sadvahdvadsadasdas
+//sadvahdvadsadasdasasdsadsasa
         .g-tabbar .item {
             flex: 1;
             display:flex;
