@@ -184,7 +184,7 @@ import NavBar from "@/components/navbar";
 		  height: 50px;
 		  background-color: #fff;
 		}
-//sadvahdvad
+//sadvahdvadsadasdas
 		.g-tabbar .item {
 		    flex: 1;
 		    display:flex;
@@ -192,6 +192,7 @@ import NavBar from "@/components/navbar";
 		    justify-content:center;
 		    align-items:center;
 		}
+        //hhhhhh
 		.g-tabbar .item:nth-of-type(3){
             flex: 2;
             background: #f60;
